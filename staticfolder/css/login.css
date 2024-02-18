@@ -1,0 +1,35 @@
+/* Set the background color for the entire page to light gray */
+body {
+    background-color: #f2f2f2; /* Light gray background color */
+    color: #333; /* Dark gray text color for better visibility */
+}
+
+/* Set the background color for the login card */
+.card {
+    margin-top: 100px;
+    background-color: #87CEEB; /* Light blue background color for the card */
+}
+
+/* Add some padding to the card body */
+.card-body {
+    padding: 20px;
+}
+
+/* Center the card header text */
+.card-header {
+    text-align: center;
+    background-color: #333; /* Dark gray background for the card header */
+    color: #fff; /* White text color for the card header */
+}
+
+/* Add some margin to the login button */
+.btn-primary {
+    margin-top: 10px;
+}
+
+/* Apply responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .card {
+        margin-top: 50px;
+    }
+}

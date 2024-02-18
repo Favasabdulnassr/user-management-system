@@ -1,0 +1,43 @@
+/* Add your custom CSS styles for the signup page here */
+
+body {
+    background-color: #4CAF50; /* Green background color */
+}
+
+.signup-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #333; /* Dark text color */
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #4CAF50; /* Green button color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #45A049; /* Darker green color on hover */
+}
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
